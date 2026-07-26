@@ -1,6 +1,6 @@
 {
   "name": "@lucid-softworks/http-testkit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Request factories, handler invocation, and clients for HTTP tests.",
   "keywords": [
     "http",
