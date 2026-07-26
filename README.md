@@ -8,6 +8,7 @@ import {
   readJsonResponse,
 } from "@lucid-softworks/http-testkit";
 
+const handler = async (request: Request) => Response.json(await request.json());
 const client = new HttpTestClient(handler, { requestId: "test" });
 const value = await readJsonResponse(
   await client.post("/users", { name: "Ada" }),
